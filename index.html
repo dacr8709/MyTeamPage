@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;500&display=swap" rel="stylesheet"> 
+    <title>My Team Page</title>
+    <style>
+        .container1{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-bottom: 100px;
+        }
+        .container1_1{
+            font-family: 'Lexend Deca', sans-serif;
+            width: 40%;
+        }
+        p{
+            width: 60%;
+        }
+        .beta-container{
+            width: 70%;
+            margin: 0 80px 20px;
+            display:grid;
+            grid-template-columns: auto auto auto;
+            justify-items: center;
+            justify-content: space-between;
+        }
+        .container2{
+            margin-bottom: 80px;
+        }
+        .card{
+            display: flex;
+            flex-direction: row;
+
+        }
+        img{
+            width: 250px;
+        }
+        .position{
+            writing-mode: vertical-lr;
+            margin: 0 0 0 5px;
+            font-size: small;
+        }
+        .name{
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 500;
+            margin: 5px 0 0 0;
+        }
+        .pict2, .pict5{
+            margin-top: 70px;
+        }
+        @media (max-width: 600px){
+            .container1{
+                display: flex;
+                flex-direction: column;
+            }
+            .container1_1{
+                width: 100%;
+            }
+            p{
+                width: 80%;
+            }
+            .beta-container{
+                width: 100%;
+                margin: 0;
+                display:grid;
+                grid-template-columns: auto auto;
+                justify-items: center;
+                justify-content: space-between;
+            }
+            .container2{
+                margin-bottom: 30px;
+            }
+            .pict4, .pict6{
+            margin-top: 70px;
+            }
+            .pict5{
+                margin: auto;
+            }
+            img{
+                width: 170px;
+            }
+        }
+        </style>
+</head>
+<body>
+    <div class="main-container">
+    <div class="container1">
+        <h1>The creative crew</h1>
+    <div class="container1_1">
+        <h3>WHO WE ARE</h3>
+        <p>We are team of creatively diverse. driven. innovate individuals working in varius locations form the world.</p>
+    </div>
+    </div>
+    <div class="beta-container">
+    <div class="container2">
+        <div class="card pict1">
+            <img src= "Recursos/photo1.png" alt="">
+            <h4 class="position">PRODUCT OWNER</h4>
+        </div>
+        <h4 class="name">Bill Mahoney</h4>
+    </div>
+    <div class="container2">
+        <div class="card pict2">
+            <img src= "Recursos/photo2.png" alt="">
+            <h4 class="position">ART DIRECTOR</h4>
+        </div>
+        <h4 class="name">Saba Cabrera</h4>
+    </div>
+    <div class="container2">
+        <div class="card pict3">
+            <img src= "Recursos/photo3.png" alt="">
+            <h4 class="position">TECH HEAD</h4>
+        </div>
+        <h4 class="name">Shae Le</h4>
+    </div>
+    <div class="container2">
+        <div class="card pict4">
+            <img src= "Recursos/photo4.png" alt="">
+            <h4 class="position">UX DESIGNER</h4>
+        </div>
+        <h4 class="name">Skylah Lu</h4>
+    </div>
+    <div class="container2">
+        <div class="card pict5">
+            <img src= "Recursos/photo5.png" alt="">
+            <h4 class="position">DEVELOPER</h4>
+        </div>
+        <h4 class="name">Griff Richards</h4>
+    </div>
+    <div class="container2">
+        <div class="card pict6">
+            <img src= "Recursos/photo6.png" alt="">
+            <h4 class="position">DEVELOPER</h4>
+        </div>
+        <h4 class="name">Stan John</h4>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
